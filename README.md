@@ -27,6 +27,11 @@ You can remove the last `/cast` command and the `[flyable]` condition on line 5 
 /cast [mod:alt] !Mass Dispel; [spec:3,@mouseover,help,nodead] Purify Disease; [@mouseover,help,nodead] Purify; [@mouseover,harm,nodead] [harm] Dispel Magic; [spec:3] Purify Disease; Purify
 ```
 
+This macro will:
+1. cast `Mass Dispell` if used with `alt`.
+2. cast `Purify` on friendly target
+3. cast `Dispel Magic` on enemy target
+
 ### Shadowform
 
 ```
