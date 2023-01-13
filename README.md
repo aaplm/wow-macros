@@ -2,12 +2,6 @@
 
 ### Dragon Riding/Mount Macro
 
-This macro will:  
-1. Dismount you if you are mounted  
-2. Mount the specified dargon riding mount  
-3. If dragon riding is unavailble and you can fly, mount the specified flying mount  
-4. If dragon riding and normal flying are unavailble, mount the specified ground mount  
-
 ```lua
     #showtooltip  
     /dismount [mounted]  
@@ -17,8 +11,29 @@ This macro will:
     /cast [noflyable] Bloodgorged Crawg  
  ```
  
+This macro will:
+1. dismount you if you are mounted.
+2. mount the specified dragon riding mount if dragon riding is available.
+3. mount the specified flying mount if normal flying is available.
+4. mount the specified mount if dragon riding and normal flying are unavailable.
+
+You can remove the last `/cast` command and the `[flyable]` condition on line 5 the if you want to use your flying mount in instance where mounts cannot fly.
+
 # Priest
 ### Purify/Dispell Macro
 
-    #showtooltip
-    /cast [mod:alt] !Mass Dispel; [spec:3,@mouseover,help,nodead] Purify Disease; [@mouseover,help,nodead] Purify; [@mouseover,harm,nodead] [harm] Dispel Magic; [spec:3] Purify Disease; Purify
+```
+#showtooltip
+/cast [mod:alt] !Mass Dispel; [spec:3,@mouseover,help,nodead] Purify Disease; [@mouseover,help,nodead] Purify; [@mouseover,harm,nodead] [harm] Dispel Magic; [spec:3] Purify Disease; Purify
+```
+
+### Shadowform
+
+```
+#showtooltip
+/cast !Shadowform
+```
+
+This macro will:
+1. ensure shadowform is on, even through multiple presses.
+2. will not remove shadowform (you can click the buff away though).
