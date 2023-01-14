@@ -1,6 +1,6 @@
 ## Dragon Riding/Mounting
 
-```lua
+```
     #showtooltip  
     /dismount [mounted]  
     /stopmacro [mounted]  
@@ -19,7 +19,7 @@ You can remove the last `/cast` command and the `[flyable]` condition on line 5 
 
 ## Purify/Dispell Macro
 
-```lua
+```
 #showtooltip
 /cast [mod:alt] !Mass Dispel; [spec:3,@mouseover,help,nodead] Purify Disease; [@mouseover,help,nodead] Purify; [@mouseover,harm,nodead] [harm] Dispel Magic; [spec:3] Purify Disease; Purify
 ```
@@ -43,7 +43,7 @@ This macro will:
 
 ## Targeting
 
-```lua
+```
 #showtooltip
 /cast [@mouseover,harm,nodead][@focus,harm,nodead,exsists][] Shadow Word: Pain
 ```
