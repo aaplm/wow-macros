@@ -49,6 +49,6 @@ This macro will:
 ```
 
 This macro will:
-1. cast the spell at the mouseover target
-2. cast the spell at the focus target, if not mousing over
-3. cast the spell at your selected target, if non of the above
+1. cast the spell at your mouseover target.
+2. cast the spell at your focus target, if none of the above
+3. cast the spell at your selected target, if none of the above
