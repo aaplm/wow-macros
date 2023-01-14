@@ -54,7 +54,7 @@ This macro will:
 
 ```
 #showtooltip
-/cast [@mouseover,harm,nodead][@focus,harm,nodead,exsists][] Shadow Word: Pain
+/cast [@mouseover,harm,nodead] [@focus,harm,nodead,exists] [] Shadow Word: Pain
 ```
 
 This macro will:
