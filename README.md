@@ -37,8 +37,9 @@ This macro will:
 ```
 #showtooltip
 /cast !Shadowform
+
 ```
 
 This macro will:
-1. ensure shadowform is on, even through multiple presses.
-2. will not remove shadowform (you can click the buff away though).
+1. ensure `Shadowform` is on, even through multiple presses
+2. cast `Power Word: Fortitude` if you're already in `Shadowform`
