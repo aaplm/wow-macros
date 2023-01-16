@@ -2,6 +2,8 @@
 
 It's a little too long (260-ish characters) in this format, but adapt it to your needs. You can specify ground mounts when no flying is available or just only specify a normal flying mount that you can use in both flying and non-flying situations.
 
+Shoutout to [Elevenbane's](https://us.forums.blizzard.com/en/wow/t/useful-macro-templates/42937) post on the WOW forums for this one. 👏
+
 ```lua
 #showtooltip
 /cast [mod:alt] Mighty Caravan Brutosaur
