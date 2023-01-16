@@ -61,3 +61,18 @@ This macro will:
 1. cast the spell at your mouseover target.
 2. cast the spell at your focus target, if none of the above
 3. cast the spell at your selected target, if none of the above
+
+## Arenas
+
+```
+#showtooltip
+/cast [@arena1,nodead,exists] [@mouseover,harm,nodead] [] Shadow Word: Pain
+```
+```
+#showtooltip
+/cast [@arena2,nodead,exists] Shadow Word: Pain
+```
+```
+#showtooltip
+/cast [@arena3,nodead,exists] Shadow Word: Pain
+```
