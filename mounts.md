@@ -1,6 +1,6 @@
 ## Versace Violet Mounting Macro
 
-It's a little too long (260-ish characters) in this format, but adapt it to your needs.
+It's a little too long (260-ish characters) in this format, but adapt it to your needs. You can specify ground mounts when no flying is available or just only specify a normal flying mount that you can use in both flying and non-flying situations.
 
 ```
 #showtooltip
@@ -21,8 +21,9 @@ It's a little too long (260-ish characters) in this format, but adapt it to your
 ```
 
 This macro will:
-1. dismount you if you are mounted.
-2. summon the spcified mount when holding alt
-2. summon the specified dragon riding mount if dragon riding is available.
-3. summon the specified flying mount if normal flying is available.
-4. summon the specified mount if dragon riding and normal flying are unavailable.
+1. dismount and/or start summoning the specified mount when holding `alt`.
+2. dismount and/or start summoning the specified mount when holding `ctrl`.
+3. dismount if none of the above are true and stop the macro execution.
+4. mount the specified dragon riding mount if dragon riding is available.
+5. mount the specified flying mount if normal flying is available.
+6. mount the specified mount if dragon riding and normal flying are unavailable.
