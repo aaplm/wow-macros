@@ -66,7 +66,7 @@ This macro will:
 
 ```
 #showtooltip
-/cast [@arena1,nodead,exists] [@mouseover,harm,nodead] [] Shadow Word: Pain
+/cast [@arena1,nodead,exists] [@mouseover,harm,nodead] [@focus,harm,nodead,exists] [] Shadow Word: Pain
 ```
 ```
 #showtooltip
