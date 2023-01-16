@@ -2,7 +2,7 @@
 
 This is a handy macro that will use your spec's version of `Purify` and `Dispel Magic` on friendly and enemy targets, respectively. This one macro will change the spells used depending on the spec you are in. 💯💯
 
-Shoutout to [Elevenbane's](https://us.forums.blizzard.com/en/wow/t/useful-macro-templates/42937) post on the WOW forums for this one.
+Shoutout to [Elevenbane's](https://us.forums.blizzard.com/en/wow/t/useful-macro-templates/42937) post on the WOW forums for this one. 👏
 
 ```lua
 #showtooltip
