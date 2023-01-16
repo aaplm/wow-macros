@@ -27,3 +27,14 @@ This macro will also work in all `Priest` specs.
 This macro will:
 1. Enter `Shadowform` if it's not on and you're playing shadow.
 2. Cast `Power Word: Fortitude` on yourself.
+
+## Dark Ascension vs Void Eruption
+
+```lua
+#showtooltip
+/cast [known: Dark Ascension] Dark Ascension; [known:Void Eruption] Void Eruption
+```
+
+This macro will:
+1. cast `Dark Ascension` if talented.
+2. cast `Void Eruption` if talented.
