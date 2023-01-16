@@ -2,7 +2,7 @@
 
 It's a little too long (260-ish characters) in this format, but adapt it to your needs. You can specify ground mounts when no flying is available or just only specify a normal flying mount that you can use in both flying and non-flying situations.
 
-```
+```lua
 #showtooltip
 /cast [mod:alt] Mighty Caravan Brutosaur
 /cast [mod:ctrl] Grand Expedition Yak
@@ -13,7 +13,8 @@ It's a little too long (260-ish characters) in this format, but adapt it to your
 /cast [noflyable] Bloodgorged Crawg
  ```
  
-```
+ These are the currently available dragon riding mount IDs. Replace the `SummonByID()` argument with the one you want to use.
+```lua
 1589: Renewed Proto-Drake
 1590: Windborne Velocidrake
 1591: Cliffside Wylderdrake
