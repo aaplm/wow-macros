@@ -32,9 +32,16 @@ This macro will:
 
 ```lua
 #showtooltip
-/cast [known:391109] Dark Ascension; [known:228260] Void Eruption
+/cast [known:391109, @mouseover, nodead] [known:391109, nodead] Dark Ascension; [known:228260, @mouseover, nodead] [known:228260, nodead] Void Eruption
 ```
 
 This macro will:
 1. cast `Dark Ascension` if talented.
 2. cast `Void Eruption` if talented.
+
+## Stop Mind Searing Friends
+
+```lua
+#showtooltip
+/cast [known:48045, @mouseover, harm, nodead] [knwon:48045, harm, nodead] Mind Sear
+```
