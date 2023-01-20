@@ -32,7 +32,7 @@ This macro will:
 
 ```lua
 #showtooltip
-/cast [known: Dark Ascension] Dark Ascension; [known:Void Eruption] Void Eruption
+/cast [known:391109] Dark Ascension; [known:228260] Void Eruption
 ```
 
 This macro will:
