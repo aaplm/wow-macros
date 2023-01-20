@@ -43,5 +43,5 @@ This macro will:
 
 ```lua
 #showtooltip
-/cast [known:48045, @mouseover, harm, nodead] [knwon:48045, harm, nodead] Mind Sear
+/cast [@mouseover, harm, nodead] [harm, nodead] Mind Sear
 ```
