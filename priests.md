@@ -6,7 +6,7 @@ Shoutout to [Elevenbane's](https://us.forums.blizzard.com/en/wow/t/useful-macro-
 
 ```lua
 #showtooltip
-/cast [mod:alt] !Mass Dispel; [spec:3,@mouseover,help,nodead] Purify Disease; [@mouseover,help,nodead] Purify; [@mouseover,harm,nodead] [harm] Dispel Magic; [spec:3] Purify Disease; Purify
+/cast [mod:alt] !Mass Dispel; [spec [spec:3,@mouseover,help,nodead] Purify Disease; [@mouseover,help,nodead] Purify; [@mouseover,harm,nodead] [harm] Dispel Magic; [spec:3] Purify Disease; Purify
 ```
 
 This macro will:
@@ -21,6 +21,8 @@ This macro will also work in all `Priest` specs.
 ```lua
 #showtooltip
 /cast [spec:3,noform] !Shadowform
+/cast [mod:shift] Mass Resurrection
+/cast [mod:ctrl,@Mouseover,help] Resurrection
 /cast [@player] Power Word: Fortitude
 ```
 
